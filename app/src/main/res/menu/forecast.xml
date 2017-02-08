@@ -3,5 +3,4 @@
     <item
         android:id="@+id/action_refresh"
         android:title="@string/btn_refresh"></item>
-
 </menu>
