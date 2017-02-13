@@ -13,4 +13,9 @@
         android:orderInCategory="2"
         android:title="@string/btn_open_map"
         app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/btn_settings"
+        app:showAsAction="never"/>
 </menu>
