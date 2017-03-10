@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity implements
         switch (loaderId) {
 
             case ID_FORECAST_LOADER:
-                /* URI for all rows of weather data in our weather table */
+                /*URI for all rows of weather data in our weather table */
                 Uri forecastQueryUri = WeatherContract.WeatherEntry.CONTENT_URI;
                 /* Sort order: Ascending by date */
                 String sortOrder = WeatherContract.WeatherEntry.COLUMN_DATE + " ASC";
